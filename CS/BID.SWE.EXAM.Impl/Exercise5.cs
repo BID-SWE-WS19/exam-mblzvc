@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Net.Sockets;
 using BID.SWE1.Exam.Interfaces;
 
 namespace BID.SWE.EXAM.Impl
@@ -8,7 +10,11 @@ namespace BID.SWE.EXAM.Impl
        
         public object Method1(string str, int i)
         {
-            throw new NotImplementedException();
+            List<string> list = new List<string>();
+
+            Socket socket;
+
+            return list;
         }
     }
 }
