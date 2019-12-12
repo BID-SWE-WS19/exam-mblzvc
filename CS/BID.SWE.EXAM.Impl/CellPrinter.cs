@@ -9,11 +9,11 @@ namespace BID.SWE.EXAM.Impl
         {
             if (alive)
             {
-                return "Cell " + color + " born on " + date + "is alive";
+                return "Cell " + color + " born on " + date.ToString("dd.MM.yyyy") + " is alive";
             }
             else
             {
-                return "Cell " + color + " born on " + date + "is dead";
+                return "Cell " + color + " born on " + date.ToString("dd.MM.yyyy") + " is dead";
             }
         }
 
