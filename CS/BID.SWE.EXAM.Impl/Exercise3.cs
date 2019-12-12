@@ -12,7 +12,10 @@ namespace BID.SWE.EXAM.Impl
 
         public object Method2()
         {
-            throw new NotImplementedException();
+            Object[] arr = new Object[2];
+            arr[0] = new Springen();
+            arr[1] = new Laufen();
+            return arr;
         }
 
     }
