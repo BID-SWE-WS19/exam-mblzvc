@@ -15,4 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BID.SWE.EXAM.Impl\BID.SWE.EXAM.Impl.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="BID.SWE1.Exam.Interfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+  </ItemGroup>
 </Project>
